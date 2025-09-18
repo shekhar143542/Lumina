@@ -163,7 +163,7 @@ const AgentCreatedSuccess = ({ formData, handleGenerateMeeting, setCurrentPage }
     <div className="mb-8">
       <CheckCircle className="mx-auto h-16 w-16 text-green-500 mb-4" />
       <h1 className="text-3xl font-bold text-gray-900 mb-2">AI Agent Created Successfully!</h1>
-      <p className="text-gray-600">Your AI training agent "{formData.agentName}" is ready to use.</p>
+      <p className="text-gray-600">Your AI training agent &ldquo;{formData.agentName}&rdquo; is ready to use.</p>
     </div>
 
     <div className="bg-gray-50 rounded-lg p-6 mb-8">
